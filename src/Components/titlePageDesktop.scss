@@ -1,0 +1,15 @@
+.main-container{
+    @apply box-border w-full h-full border-2 text-xl text-center justify-center flex gap-2 min-h-[100px];
+    .div-one{
+        @apply border-solid border-4 border-indigo-600 flex text-center justify-center flex-col w-[200px];
+    }
+    .div-two{
+        @apply border-solid border-4 border-indigo-600 flex text-center justify-center flex-col w-[200px]; 
+    }
+    .div-three {
+        @apply border-solid border-4 border-indigo-600 flex text-center justify-center flex-col w-[200px];
+    }
+    .div-four{
+        @apply border-solid border-4 border-indigo-600 flex text-center justify-center flex-col w-[200px];
+    }
+}
