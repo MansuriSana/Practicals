@@ -1,10 +1,12 @@
 import './App.css';
+import ScreenSelector from './Components/ScreenSelector';
 import { TitlePage } from './Components/TitlePage';
 
 function App() {
   return (
     <div className="App">
-      <TitlePage/>
+      <ScreenSelector><TitlePage/></ScreenSelector>
+      
     </div>
   );
 }

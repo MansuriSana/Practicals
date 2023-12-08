@@ -1,6 +1,3 @@
-import "./titlePageDesktop.scss"
-import "./titlePageMobile.scss"
-
 export const TitlePage = () => {
     return (
         <div className="main-container">
